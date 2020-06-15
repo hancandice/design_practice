@@ -1,0 +1,18 @@
+.nav {
+  position: fixed;
+  background-color: whitesmoke;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 20px 50px;
+  border-top: 1px solid #e0dddd;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .nav__list .nav__list-item i {
+  font-size: 24px;
+}
