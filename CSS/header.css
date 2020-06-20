@@ -25,3 +25,17 @@
   margin-right: 16px;
   font-size: 18px;
 }
+
+.setting .setting__badge {
+  background-color: tomato;
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  right: -5px;
+  top: 0;
+}
+
+.setting {
+  position: relative;
+}

@@ -5,10 +5,75 @@
 }
 
 .friend .friend__avatar {
-  width: 50px;
-  border-radius: 35%;
+  border-radius: 40%;
+  margin-right: 12px;
+  border: 1px solid whitesmoke;
 }
 
 .friend__avatar.g-avatar {
-  /* width: 70px; */
+  width: 60px;
+  height: 60px;
+}
+
+.friend__avatar.m-avatar {
+  width: 45px;
+  height: 45px;
+}
+
+.friend__avatar.s-avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.micro-avatar {
+  width: 35px;
+  height: 35px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend__content .friend__name {
+  display: block;
+}
+
+.friend__content .friend__status {
+  display: block;
+  font-size: 12px;
+  color: grey;
+  margin-top: 5px;
+}
+
+.friend__name.g-name {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.friend__name.m-name {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.friend__now-listening {
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 15px;
+  border: 1px solid #519c6b;
+}
+
+.friend__now-listening span {
+  color: #626462;
+}
+
+.friend__now-listening i {
+  color: #519c6b;
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+.chat__timestamp {
+  font-size: 12px;
+  color: grey;
 }

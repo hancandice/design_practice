@@ -33,7 +33,8 @@
           <span class="header__icon"><i class="fas fa-qrcode"></i></span>
           <span class="header__icon"><i class="fas fa-music"></i></span>
           <span class="header__icon">
-            <a href="settings.html">
+            <a href="settings.html" class="setting">
+              <div class="setting__badge"></div>
               <i class="fas fa-cog"></i>
             </a>
           </span>
@@ -43,11 +44,11 @@
     
     <main class="more">
       <header class="more__header">
-        <div class="more__friend friend friend_lg">
+        <div class="more__friend friend">
           <div class="friend__column">
             <img src="image/jeeyoung.jpg" alt="" class="g-avatar friend__avatar">
             <div class="friend__content">
-              <span class="friend__name">
+              <span class="friend__name g-name">
                 Candice Han
               </span>
               <span class="friend__status">
@@ -94,30 +95,37 @@
           </li>
         </ul>
       </header>
-      <section class="more__suggestions">
+      <div class="more__suggestions">
         <h5 class="more__title">Suggestions</h5>
-        <ul class="more__suggestions-list">
-          <li class="more__suggestion suggestion">
-            <span class="suggestion__icon">
+        <ul class="suggestions-list">
+          <li class="more__btn suggestion-list__btn">
+            <span class="more__btn-icon">
               <i class="fas fa-quote-right fa-2x"></i>
             </span>
-            <span class="suggestion__title">Kakao Story</span>
+            <span class="more__btn-title">
+              Kakao Story
+            </span>
           </li>
-          <li class="more__suggestion suggestion">
-            <span class="suggestion__icon">
+          <li class="more__btn suggestion-list__btn">
+            <span class="more__btn-icon">
               <i class="fas fa-glass-cheers fa-2x"></i>
             </span>
-            <span class="suggestion__title">Kakao friends</span>
+            <span class="more__btn-title">
+              Kakao friends
+            </span>
           </li>
-          <li class="more__suggestion suggestion">
-            <span class="suggestion__icon">
+          <li class="more__btn suggestion-list__btn">
+            <span class="more__btn-icon">
               <i class="fas fa-gamepad fa-2x"></i>
             </span>
-            <span class="suggestion__title">Friends Gem</span>
+            <span class="more__btn-title">
+              Friends Gem
+            </span>
           </li>
         </ul>
-      </section>
+      </div>
     </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">

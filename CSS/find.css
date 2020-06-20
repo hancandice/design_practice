@@ -1,0 +1,52 @@
+.find__header-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.find__header-btn.header-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.heather-btn__icon i {
+  font-size: 24px;
+}
+
+.find__header-btn .header-btn__title {
+  margin: 24px 0px 6px 0px;
+  font-size: 14px;
+  width: 80px;
+  text-align: center;
+}
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.friend__add-btn {
+  background-color: #efefef;
+  padding: 8px 12px;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friend__add-btn i {
+  font-size: 12px;
+}
+
+.recommended {
+  padding: 16px 0px;
+  border-top: 1px solid whitesmoke;
+  margin: 16px 0px;
+}
+
+.find__title {
+  font-size: 14px;
+  color: #626462;
+  margin-bottom: 12px;
+}

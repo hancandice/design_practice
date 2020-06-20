@@ -5,6 +5,10 @@
 @import "nav-bar.css";
 @import "main.css";
 @import "friend.css";
+@import "find.css";
+@import "friends.css";
+@import "more.css";
+@import "setting.css";
 
 * {
   box-sizing: border-box;
@@ -21,6 +25,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 .status-barAndHeader {
@@ -29,4 +34,11 @@ a {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 1;
+}
+
+.friends__list li:last-child,
+.chats__list li:last-child,
+.find__recommended li:last-child {
+  padding-bottom: 75px;
 }

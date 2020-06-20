@@ -1,0 +1,30 @@
+.friends .friends__plus {
+  padding: 16px 0px;
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  margin: 16px 0px;
+}
+
+.friends__plus .friends__title,
+.friends__title {
+  font-size: 14px;
+  color: #626462;
+  margin-bottom: 12px;
+}
+
+.friends__list,
+.chats__list,
+.find__recommended {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.friends__list li,
+.find__recommended li {
+  margin: 6px 0px;
+}
+
+.chats__list li {
+  margin: 12px 0px;
+}
