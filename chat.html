@@ -10,7 +10,7 @@
     <title>Chat | Kakao Clone</title>
 </head>
 
-<body>
+<body class="message-body">
     <div class="status-barAndHeader">
         <div class="status-bar">
             <div class="status-bar__column">
@@ -29,8 +29,8 @@
                 <a href="index.html" class="header__back-btn">
                     <i class="fas fa-chevron-left"></i>
                 </a>
-                <h1 class="header__title">Monkey</h1>
             </div>
+            <h1 class="header__title">Monkey</h1>
             <div class="header__header-column">
                 <span class="header__icon"><i class="fas fa-search"></i></span>
                 <span class="header__icon"><i class="fas fa-bars"></i></span>
@@ -38,23 +38,23 @@
         </header>
     </div>
     
-    <main class="chat">
-        <span class="chat__timestamp">Wednesday 10 June 2020</span>
-        <ul class="chat__messages">
-            <li class="incoming-message message">
+    <main class="message">
+        <span class="message__timestamp">Wednesday 10 June 2020</span>
+        <ul class="message__messages">
+            <li class="incoming-message">
                 <img src="image/monkey.jpg" class="message__avatar micro-avatar" alt=""/>
-                <div class="message__content">
-                    <span class="message__author">Monkey</span>
-                    <div class="message__bubble">
+                <div class="incoming-message__content">
+                    <span class="incoming-message__author">Monkey</span>
+                    <div class="incoming-message__bubble">
                         Hey Sweetie! 🍭 Congrats, I love you! 🙈🍌🐵
                     </div>
                 </div>
-                <span class="message__timestamp">09:51</span>
+                <span class="incoming-message__timestamp">09:51</span>
             </li>
-            <li class="outgoing-message message">
-                <span class="message__timestamp">09:57</span>
-                <div class="message__content">
-                    <div class="message__bubble">
+            <li class="outgoing-message">
+                <span class="outgoing-message__timestamp">09:57</span>
+                <div class="outgoing-message__content">
+                    <div class="outgoing-message__bubble">
                         Thank you so much! Everything is fine with you? :) 
                     </div>
                 </div>

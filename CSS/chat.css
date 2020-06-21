@@ -1,0 +1,62 @@
+main.message {
+  background-image: url(../image/bg_bike.jpg);
+  min-height: 100vh;
+  padding: 20px 20px;
+}
+
+.message-body {
+  padding: 0;
+}
+
+.chat__write {
+  background-color: #f5f5f5;
+  position: fixed;
+  bottom: 30px;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  color: #4b4848;
+  border-radius: 40px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+.chat__write:hover {
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.chat__write i {
+  font-size: 22px;
+}
+
+.chat__write-column:nth-child(2) {
+  width: 90%;
+}
+
+.chat__writeInputAndIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 5px 10px 5px 5px;
+  margin: 0px 5px;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+}
+
+.chat__write-column input {
+  width: 100%;
+  padding: 5px;
+  margin-right: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.chat__write-column input:focus {
+  outline: none;
+}
