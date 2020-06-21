@@ -1,7 +1,12 @@
 main.message {
-  background-image: url(../image/bg_bike.jpg);
+  /* background-image: url(../image/bananaBg.jpg); */
+  background-color: #f3f7e1;
   min-height: 100vh;
   padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
 }
 
 .message-body {
@@ -59,4 +64,86 @@ main.message {
 
 .chat__write-column input:focus {
   outline: none;
+}
+
+.message__timestamp {
+  background-color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #4b4848;
+  border-radius: 20px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+}
+
+.message__avatar.micro-avatar {
+  border-radius: 40%;
+  border: 1px solid whitesmoke;
+  margin-right: 6px;
+}
+
+ul.message__messages {
+  width: 100%;
+}
+
+li.incoming-message {
+  align-self: flex-start;
+  display: flex;
+}
+
+li.outgoing-message {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.incoming-message__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.incoming-message__author {
+  color: grey;
+  font-size: 10px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.incoming-message__content {
+  display: flex;
+  align-items: center;
+}
+
+.incoming-message__bubble {
+  background-image: linear-gradient(to right, #edde5d, #ebbd7d, #dbd4b4);
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #4b4848;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+  margin-right: 10px;
+}
+
+.outgoing-message__bubble {
+  background-image: linear-gradient(to right, #cbfdda, #b5ac49);
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #4b4848;
+  border-radius: 10px;
+  border-bottom-right-radius: 0;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+  margin-left: 10px;
+}
+
+.incoming-message__timestamp,
+.outgoing-message__timestamp {
+  color: grey;
+  font-size: 6px;
 }
