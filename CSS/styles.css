@@ -40,6 +40,7 @@ a {
 .friends__list li:last-child,
 .chats__list li:last-child,
 .find__recommended li:last-child,
-main.message > li:last-child {
+main.message > ul:last-of-type > li:last-child,
+.settings > section:last-of-type {
   padding-bottom: 75px;
 }
