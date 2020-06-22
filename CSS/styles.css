@@ -37,6 +37,17 @@ a {
   z-index: 1;
 }
 
+.message-body .status-barAndHeader {
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.25),
+    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
 .friends__list li:last-child,
 .chats__list li:last-child,
 .find__recommended li:last-child,
