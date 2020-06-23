@@ -67,10 +67,10 @@ main.message {
 }
 
 .message__timestamp {
-  background-color: white;
+  background-color: #9db8cf;
   padding: 5px 10px;
   font-size: 12px;
-  color: #4b4848;
+  color: white;
   border-radius: 20px;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
@@ -113,7 +113,48 @@ li.outgoing-message {
 
 .incoming-message__content {
   display: flex;
+  align-items: flex-end;
+}
+
+.kakao-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 60%;
+  background-color: #ffffff;
+  padding: 14px;
+  font-size: 15px;
+  color: #4b4848;
+  border-radius: 10px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+  margin-right: 10px;
+}
+
+.kakao-message .kakao-message__title {
+  font-size: 16px;
+}
+
+.kakao-message .kakao-message__contents {
+  color: #979797;
+  padding: 14px 0px;
+}
+
+.kakao-message .kakao-message__button {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.kakao-message__button_content {
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .incoming-message__bubble {
@@ -142,8 +183,15 @@ li.outgoing-message {
   margin-left: 10px;
 }
 
-.incoming-message__timestamp,
+.kakao-message__timestamp,
+.incoming-message__timestamp {
+  color: grey;
+  font-size: 6px;
+  padding-bottom: 28px;
+}
+
 .outgoing-message__timestamp {
   color: grey;
   font-size: 6px;
+  padding-bottom: 8px;
 }
