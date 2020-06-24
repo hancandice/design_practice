@@ -18,6 +18,16 @@
 .friend__avatar.m-avatar {
   width: 45px;
   height: 45px;
+  animation: spin 1s 1s ease-in 3;
+}
+
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(1turn);
+  }
 }
 
 .friend__avatar.s-avatar {
