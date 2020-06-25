@@ -33,6 +33,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: lean 0.5s ease-in-out infinite;
+}
+
+@keyframes lean {
+  0% {
+    transform: none;
+  }
+  30% {
+    transform: rotateZ(10deg);
+  }
+  60% {
+    transform: none;
+  }
+  100% {
+    transform: rotateY(-10deg);
+  }
 }
 
 .friend__add-btn i {
